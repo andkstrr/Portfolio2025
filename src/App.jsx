@@ -1,17 +1,11 @@
-import { useState } from 'react'
-import underConstruction from './assets/under-construction.png'
-import './App.css'
+import MainLayout from "./layouts/MainLayout";
+import UnderDevelopment from "./pages/UnderDevelopment";
+import Home from "./pages/Home";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <div className="container">
-      <img src={underConstruction} alt="under construction" className="illustration" />
-      <h2>Under Development :)</h2>
-      <p>Please visit my <a href="https://github.com/andkstrr" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-    </div>
-  )
+    <MainLayout>
+      <Home />
+    </MainLayout>
+  );
 }
-
-export default App
