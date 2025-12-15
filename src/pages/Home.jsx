@@ -46,7 +46,7 @@ function Home() {
             about usability. Available for freelance UI/UX projects.
           </p>
 
-          <div className="flex gap-4 mb-12">
+          <div className="flex flex-wrap gap-4 mb-12">
             <a
               href="https://github.com/andkstrr"
               target="_blank"
