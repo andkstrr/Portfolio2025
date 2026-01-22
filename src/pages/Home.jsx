@@ -9,7 +9,7 @@ import ProjectsList from "../components/ProjectsList";
 
 function Home() {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative bg-background">
       <main className="max-w-3xl mx-auto px-6 py-20">
         {/* HERO SECTION */}
         <section className="mb-10">
@@ -79,7 +79,7 @@ function Home() {
 
         {/* EXPERIENCE SECTION */}
         <section className="mb-20">
-          <h2 className="text-2xl font-semibold text-right mb-2 dark:text-white">Experience</h2>
+          <h2 className="text-2xl font-semibold text-right mb-2 dark:text-white">Career Milestones</h2>
           <p className="text-slate-600 dark:text-neutral-400 text-right mb-10">
             I have gained experience through various projects that involve
             designing, building, and refining digital solutions. Each project

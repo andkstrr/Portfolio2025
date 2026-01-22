@@ -5,16 +5,9 @@ import './index.css'
 
 // Inisialisasi theme sebelum render
 const initTheme = () => {
-  const savedTheme = localStorage.getItem('theme')
-  let theme = 'light'
+  const savedTheme = localStorage.getItem('theme') || 'light'
 
-  if (savedTheme) {
-    theme = savedTheme
-  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    theme = 'dark'
-  }
-
-  if (theme === 'dark') {
+  if (savedTheme === 'dark') {
     document.documentElement.classList.add('dark')
   } else {
     document.documentElement.classList.remove('dark')

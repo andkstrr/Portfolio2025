@@ -17,12 +17,12 @@ export default function SkillsMarquee() {
       />
 
       {/* Normal direction */}
-      <Marquee className="[--duration:25s]">
+      <Marquee className="[--duration:60s]">
         <SkillsList />
       </Marquee>
 
       {/* Reverse direction */}
-      <Marquee className="[--duration:25s]"reverse>
+      <Marquee className="[--duration:60s]"reverse>
         <SkillsList />
       </Marquee>
     </div>
