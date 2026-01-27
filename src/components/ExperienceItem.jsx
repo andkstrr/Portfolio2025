@@ -14,8 +14,8 @@ const ExperienceItem = ({ data }) => {
           <img src={data.logo} alt={data.company} className="w-10 h-auto" />
           <div>
             <h3 className="font-semibold text-slate-900 dark:text-white">{data.role}</h3>
-            <p className="font-normal text-sm text-slate-700 dark:text-neutral-400">{data.company}</p>
-            <p className="font-normal text-sm text-gray-400 dark:text-neutral-600">{data.period}</p>
+            <p className="font-normal text-sm text-slate-500 dark:text-neutral-400">{data.company}</p>
+            <p className="font-normal text-sm text-gray-400 dark:text-neutral-500">{data.period}</p>
           </div>
         </div>
         <div className="text-slate-400 dark:text-neutral-500">
